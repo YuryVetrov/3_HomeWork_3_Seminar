@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+bin\Debug\net6.0
+obj
+bin
+Debug\net6.0
+Task_19.csproj
+Task_21.csproj
+Task_23.csproj
