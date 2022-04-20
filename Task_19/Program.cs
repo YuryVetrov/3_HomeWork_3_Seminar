@@ -5,8 +5,12 @@
 // 12821 -> да
 Console.WriteLine("Введите пятизначное число");
 string number = Console.ReadLine(); // задаём строку для введения числа
-if (number.Length 0 == 4 & 1 == 3)
-    Console.WriteLine("Это число является палиндромом");
+if (number[0] == number[4] && number[1] == number[3])
+{
+Console.WriteLine("Это число является палиндромом");
+}    
 // если индекс числа 0 и 4; и 1 и 3 одинаковые то пятизначное число является палиндромом
 else 
-    Console.WriteLine("Это число не является палиндромом");
+{
+Console.WriteLine("Это число не является палиндромом");
+}
